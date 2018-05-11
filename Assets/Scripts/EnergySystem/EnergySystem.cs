@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class EnergySystem : IGameSystem
 {
-    public void Init()
+    public override void Init()
     {
         throw new System.NotImplementedException();
     }
 
-    public void Release()
+	public override void Release()
     {
         throw new System.NotImplementedException();
     }
 
-    public void Update()
+	public override void Update()
     {
         throw new System.NotImplementedException();
     }
