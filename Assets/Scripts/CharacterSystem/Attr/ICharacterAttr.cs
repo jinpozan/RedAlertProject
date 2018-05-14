@@ -13,5 +13,7 @@ public abstract class ICharacterAttr {
 	protected int mLv;
 	protected float mCritRate; // 0 - 1  暴击率
 
+    protected IAttrStrategy mStrategy;
+
    //增加的最大血量 抵御的伤害值 暴击增加的伤害
 }

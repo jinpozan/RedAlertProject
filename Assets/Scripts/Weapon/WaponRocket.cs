@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponRifle : IWeapon {
+public class WaponRocket : IWeapon
+{
     protected override void PlayBulletEffect(Vector3 targetPosition)
     {
-        DoPlayBulletEffect(0.1f, targetPosition);
+        DoPlayBulletEffect(0.3f, targetPosition);
     }
 
     protected override void PlaySound()
     {
-        DoPlaySound("RifleShot");
+        DoPlaySound("RocketShot");
     }
 
     protected override void SetEffectDisplayTime()
     {
-        mEffectDisplayTime = 0.3f;
+        mEffectDisplayTime = 0.4f;
     }
 }
